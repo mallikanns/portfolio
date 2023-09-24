@@ -1,5 +1,5 @@
 import React from "react";
-import woman from "../assets/woman.png";
+import profile from "../assets/cat.png";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
@@ -12,7 +12,7 @@ const About = () => {
             <h1 className="text-rajah text-[28px] font-bold leading-[0.8] lg:text-[40px]">
               MALLIKA <span>NILNOISRI</span>
             </h1>
-            <div className="mb-5 text-[32px] lg:text-[45px] font-semibold font-secondary uppercase leading-[1] lg:w-[700px] mt-3">
+            <div className="mb-0 text-[32px] lg:text-[45px] font-semibold font-secondary uppercase leading-[1] lg:w-[700px] mt-3">
               <span className="text-rajah mr-2">I am a</span>
               <TypeAnimation
                 sequence={[
@@ -28,7 +28,7 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="flex flex-col-reverse items-center gap-y-2 lg:flex-row lg:items-center lg:gap-x-12">
+          <div className="flex flex-col-reverse items-center gap-y-0 lg:flex-row lg:items-center lg:gap-x-12">
             <div className="flex-1 text-center font-secondary lg:text-left lg:pl-20">
               <p className="text-rajah mb-10 max-w-lg mx-auto px-4 text-lg lg:mx-0 lg:px-0 lg:max-w-full">As a career switcher with an economics background turned software developer. I'm dedicated to continuous learning and eager to leverage my experiences and skills to contribute to innovative financial solutions that drive sustainable growth in Thailand and worldwide.</p>
               <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
@@ -37,7 +37,7 @@ const About = () => {
               </div>
             </div>
             <div className="lg:pr-20">
-              <img src={woman} className="w-[200px] lg:w-[300px]" />
+              <img src={profile} className="w-[300px] lg:w-[340px]" />
             </div>
           </div>
         </div>

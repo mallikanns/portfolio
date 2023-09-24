@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="fixed bottom-2 w-full overflow-hidden z-50 lg:bottom-4">
       <div className="container mx-auto">
-        <div className="w-full bg-pastelop h-16 backdrop-blur-xl rounded-full max-w-[500px] mx-auto px-5 flex justify-between items-center text-3xl text-black/70">
+        <div className="w-full bg-pastelop h-14 lg:h-16 backdrop-blur-xl rounded-full max-w-[500px] mx-auto px-5 flex justify-between items-center text-2xl lg:text-3xl text-black/70">
         {/* <div className="w-full bg-pastelop h-16 backdrop-blur-xl rounded-full max-w-[500px] mx-auto px-5 flex justify-between items-center text-3xl text-black/70"> */}
           <Link
             to="home"
