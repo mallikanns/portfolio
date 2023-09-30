@@ -4,9 +4,8 @@ import Banner from './Components/Banner';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Skills from './Components/Skills';
-import Experience from './Components/Experience';
+import Qualification from './Components/Qualification';
 import Project from './Components/Project';
-import Education from './Components/Education';
 import Contact from './Components/Contact';
 
 function App() {
@@ -19,8 +18,7 @@ function App() {
       <Navbar/>
       <Skills/>
       <Project/>
-      <Experience/>
-      <Education/>
+      <Qualification/>
       <Contact/>
       <div className='h-[4000px]'></div>
     </div>

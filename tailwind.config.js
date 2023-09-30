@@ -12,6 +12,7 @@ module.exports = {
         violet: "#7E00FF",
         rajah: "#F6B258",
         lightgreen: "#67ff45",
+        orange: "#D57457",
         // sd: "#3fede2",
       },
       fontFamily: {

@@ -45,7 +45,7 @@ const Navbar = () => {
             <BiFolderOpen />
           </Link>
           <Link
-            to="experience"
+            to="qualification"
             activeClass="active"
             smooth={true}
             spy={true}

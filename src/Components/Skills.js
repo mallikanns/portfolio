@@ -33,7 +33,7 @@ import { skills } from "../data/constants";
 const Skills = () => {
   return (
     <section
-      className="border border-black flex flex-col justify-center items-center relative z-10"
+      className="pt-8 border border-black flex flex-col justify-center items-center relative z-10"
       id="skills"
     >
       <div className="flex flex-col justify-between items-center relative w-full max-w-[1100px] gap-3">
@@ -45,7 +45,7 @@ const Skills = () => {
         </div>
         <div className="w-full flex justify-center flex-wrap px-5 mt-3 lg:mt-5 gap-7">
           {skills.map((skill) => (
-            <div className="w-full max-w-[500px] border-[0.1px] shadow-lg rounded-2xl py-4 px-9 bg-[#190a27] text-[#D57457] lg:max-w-[400px] lg:py-2.5">
+            <div className="w-full max-w-[500px] border-[0.1px] shadow-lg rounded-2xl py-4 px-9 bg-[#190a27] text-orange lg:max-w-[400px] lg:py-2.5">
               <div className="text-2xl font-semibold mb-5 text-center">
                 {skill.title}
               </div>

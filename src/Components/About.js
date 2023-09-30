@@ -33,7 +33,7 @@ const About = () => {
               <p className="text-rajah mb-10 max-w-lg mx-auto px-4 text-lg lg:mx-0 lg:px-0 lg:max-w-full">As a career switcher with an economics background turned software developer. I'm dedicated to continuous learning and eager to leverage my experiences and skills to contribute to innovative financial solutions that drive sustainable growth in Thailand and worldwide.</p>
               <div className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0">
                 <butoon className="btn btn-lg flex items-center text-lg">Contact me</butoon>
-                <a href="#" className="text-gradient btn-link text-lg">My Portfolio</a>
+                <a href="#" className="text-gradient btn-link text-lg hover:text-lightgreen">Download CV</a>
               </div>
             </div>
             <div className="lg:pr-20">

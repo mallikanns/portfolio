@@ -52,9 +52,27 @@
   );
 }
 
+.activeTabStyle {
+  color: #FEE9FF; /* Change the text color for the active tab */
+  border-bottom: 2px solid #FEE9FF; /* Add a bottom border for the active tab */
+  /* text-decoration: underline; */
+  /* text-underline-offset: 8;  */
+  /* transition: border-bottom 0.3s ease;  */
+}
+
+.inactiveTabStyle {
+  color: #868383; /* Change the text color for the inactive tab */
+  text-decoration: none; /* Remove the default text underline */
+  transition: color 0.3s ease; 
+}
+
+.inactiveTabStyle:hover {
+  color: rgb(77, 198, 218)
+}
+
 @layer base {
   body {
-    @apply font-secondary text-lg leading-8 text-violet;
+    @apply font-secondary text-lg leading-8 text-rajah;
   }
   /* .h2 {
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
