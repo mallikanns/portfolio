@@ -23,8 +23,8 @@ const ProjectCards = ({ project, setOpenModal }) => {
         <div className="text-xs lg:text-sm text-lavender overflow-hidden max-w-full text-ellipsis mt-2">{project.description}</div>
       </div>
       <div className="flex justify-center gap-2">
-        <a href={project.github} target='new' className="text-center bg-[#F6E5DF] text-indigo py-1 rounded-xl font-primary w-[140px] hover:bg-[#4f4f56] hover:text-white active:translate-y-3">View Code</a>
-        <a href={project?.webapp} target='new' className="text-center bg-[#F6E5DF] text-indigo py-1 rounded-xl font-primary w-[140px] hover:bg-[#4f4f56] hover:text-white active:translate-y-3">View App</a>
+        <a href={project.github} target='new' className="text-center bg-[#F6E5DF] text-indigo py-1 rounded-xl font-primary w-[140px] hover:bg-[#4f4f56] hover:text-white active:translate-y-3 transition duration-500 ease-out">View Code</a>
+        <a href={project?.webapp} target='new' className="text-center bg-[#F6E5DF] text-indigo py-1 rounded-xl font-primary w-[140px] hover:bg-[#4f4f56] hover:text-white active:translate-y-3 transition duration-500 ease-out">View App</a>
       </div>
     </div>
   );

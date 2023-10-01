@@ -9,7 +9,7 @@ const Project = () => {
       className="flex flex-col justify-center items-center relative z-10"
       id="project"
     >
-      <div className="flex flex-col justify-between items-center relative w-full max-w-[1350px] gap-3 pt-[10px] pb-[100px]">
+      <div className="flex flex-col justify-between items-center relative w-full max-w-[1350px] gap-3 pt-[10px]">
         <div className="text-4xl text-rajah text-center font-semibold mt-5 lg:mt-7">
           Projects
         </div>

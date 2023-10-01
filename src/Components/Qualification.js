@@ -10,7 +10,7 @@ const Qualification = () => {
 
   return (
     <section className="flex-col section" id="qualification">
-      <h2 className="text-4xl text-rajah text-center font-semibold mt-5 lg:mt-3">
+      <h2 className="text-4xl text-rajah text-center font-semibold mt-5 lg:mt-0">
         Qualification
       </h2>
       <span className="text-lg text-rajah text-center px-5 py-3 max-w-[600px]">

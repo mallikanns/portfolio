@@ -4,7 +4,7 @@ import { skills } from "../data/constants";
 const Skills = () => {
   return (
     <section
-      className="pt-8 border border-black flex flex-col justify-center items-center relative z-10"
+      className="flex flex-col justify-center items-center relative z-10"
       id="skills"
     >
       <div className="flex flex-col justify-between items-center relative w-full max-w-[1100px] gap-3">
