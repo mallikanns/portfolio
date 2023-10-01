@@ -93,3 +93,56 @@ export const skills = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    id: 0,
+    title: "FitUp",
+    date: "Aug 2023 - Oct 2023",
+    description:
+      "FitUp is a exercise tracking web app that motivates users with monetary rewards and offers comprehensive data visualization tools.",
+    image:
+      "https://i.postimg.cc/cC08ZPDY/project-fitup.png",
+    tags: ["MongoDB", "Node Js", "Express Js", "React Js", "Tailwind"],
+    github: "#",
+    webapp: "#",
+  },
+  {
+    id: 1,
+    title: "Admin & User panel",
+    date: "Sep 2023",
+    description:
+      "Created an admin panel for adding and removing users from a database, along with a user panel for viewing the database.",
+    image:
+      "https://i.postimg.cc/0ys547BM/react-project.png",
+    tags: [
+      "React Js", "JavaScript"
+    ],
+    github: "https://github.com/mallikanns/react-assessment/tree/main",
+    webapp: "https://react-assessment-five.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Find Your Hat",
+    date: "Aug 2023",
+    description:
+      "Created a text-based terminal game where the objective is to retrieve a lost star in a field filled with trees. Players must navigate the field, avoiding trees, and remain within its boundaries.",
+    image:
+      "https://i.postimg.cc/Dzzt8zNy/findyourhat-project.png",
+    tags: ["JavaScript"],
+    github: "https://github.com/mallikanns/find-your-hat",
+    webapp: "https://github.com/mallikanns/find-your-hat",
+  },
+  {
+    id: 3,
+    title: "Colmar Academy",
+    date: "Aug 2023",
+    description:
+      "Created a responsive school website in accordance with the provided wireframes, and made design choices regarding color and typography.",
+    image:
+      "https://i.postimg.cc/CMscD0p3/colmar-project.png",
+    tags: ["HTML", "CSS"],
+    github: "https://github.com/mallikanns/colmarAcademy",
+    webapp: "https://colmar-academy-drab.vercel.app/",
+  },
+];

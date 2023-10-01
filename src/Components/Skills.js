@@ -1,32 +1,3 @@
-// import React from "react";
-// import Backend from "./Backend";
-// import Frontend from "./Frontend";
-
-// const Skills = () => {
-//   return (
-//     <section
-//       className="section flex flex-col border border-rose-800"
-//       id="skills"
-//     >
-//       <h1 className="text-[28px] font-bold leading-[0.8] lg:text-[40px] mb-6">
-//         Skills
-//       </h1>
-//       <div className="flex w-full">
-//         <div className="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center"><Frontend/></div>
-//         <div className="divider divider-horizontal">OR</div>
-//         <div className="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center">content</div>
-//       </div>
-
-//       {/* <div className="container grid grid-cols-skill gap-x-12 justify-center">
-//         <Backend />
-//         <Frontend />
-//       </div> */}
-//     </section>
-//   );
-// };
-
-// export default Skills;
-
 import React from "react";
 import { skills } from "../data/constants";
 

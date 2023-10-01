@@ -4,9 +4,6 @@ import {
   BiCodeBlock,
   BiBriefcase,
   BiFolderOpen,
-  BiFile,
-  BiExtension,
-  BiBookBookmark,
   BiSolidContact,
 } from "react-icons/bi";
 import { Link } from "react-scroll";
