@@ -51,7 +51,7 @@ const Skills = () => {
               </div>
               <div className="flex justify-center flex-wrap gap-3 mb-5">
                 {skill.skills.map((item) => (
-                  <div className="border-[1px] border-white rounded-xl py-3 px-2 flex justify-center items-center bg-[#190a27] text-lightgreen gap-2 lg:py-2 lg:px-3">
+                  <div className="text-base lg:text-xl border-[1px] border-white rounded-xl py-3 px-2 flex justify-center items-center bg-[#190a27] text-lightgreen gap-2 lg:py-2 lg:px-3">
                     <img src={item.image} className="w-6 h-6" />
                     {item.name}
                   </div>
