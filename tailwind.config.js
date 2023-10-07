@@ -22,6 +22,7 @@ module.exports = {
       gridTemplateColumns: {
         // Simple 16 column grid
         skill: "repeat(2, 350px)",
+        contact: "repeat(2, max-content)",
       },
     },
     plugins: [require("daisyui")],

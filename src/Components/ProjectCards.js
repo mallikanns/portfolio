@@ -10,6 +10,8 @@ const ProjectCards = ({ project, setOpenModal }) => {
     <div
       className="w-[330px] h-[500px] flex flex-col gap-3.5 overflow-hidden pt-[20px] px-[20px] cursor-pointer rounded-lg bg-[#190a27] border border-[#F6E5DF]"
       onClick={() => setOpenModal({ state: true, project: project })}
+      data-aos="fade-up"
+      data-aos-duration="1000"
     >
       <img src={project.image} className="w-full h-[180px] rounded-lg" />
       <div className="text-sm w-full flex items-center flex-wrap gap-2 mt-1">

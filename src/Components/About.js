@@ -39,7 +39,7 @@ const About = () => {
                 <div className="flex gap-2">
                   <a href="https://www.linkedin.com/in/mallika-nns/" target="new"><BiLogoLinkedinSquare className="w-[30px] h-[30px] hover:text-white"/></a>
                   <a href="https://github.com/mallikanns" target="new"><BiLogoGithub className="w-[30px] h-[30px] hover:text-white"/></a>
-                  <a href="" target="new"><BiEnvelope className="w-[30px] h-[30px] hover:text-white"/></a>
+                  <a href="mailto:mallika.nilns@gmail.com" target="new"><BiEnvelope className="w-[30px] h-[30px] hover:text-white"/></a>
                 </div>
               </div>
             </div>

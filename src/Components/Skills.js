@@ -14,7 +14,7 @@ const Skills = () => {
         <div className="text-lg text-rajah text-center px-5 max-w-[600px]">
           Here are some skills I have been working on.
         </div>
-        <div className="w-full flex justify-center flex-wrap px-5 mt-3 lg:mt-5 gap-7">
+        <div className="w-full flex justify-center flex-wrap px-5 mt-3 lg:mt-5 gap-7" data-aos="zoom-in" data-aos-duration="1000">
           {skills.map((skill) => (
             <div className="w-full max-w-[500px] border-[0.1px] shadow-lg rounded-2xl py-4 px-9 bg-[#190a27] text-orange lg:max-w-[400px] lg:py-2.5">
               <div className="text-2xl font-semibold mb-5 text-center">
