@@ -14,7 +14,7 @@ const Contact = () => {
         Contact
       </div>
       <div className="flex flex-col lg:flex-row gap-[20px] lg:gap-[40px]" >
-        <div>
+        <div className="w-[350px] lg:w-auto">
           <h3 className="pt-2 pb-4 lg:pt-5 text-center text-lavender underline underline-offset-4 font-semibold">Talk to me</h3>
           <div className="flex flex-col gap-4" data-aos="fade-right">
             <div className="border border-[#ffffff75] flex flex-col items-center py-3 lg:px-5 rounded-xl">
@@ -65,7 +65,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div>
+        <div className="w-[350px] lg:w-auto">
           <h3 className="pt-2 pb-4 lg:pt-5 text-center text-lavender underline underline-offset-4 font-semibold">Email me</h3>
 
           <form className="flex flex-col gap-4 lg:w-[550px]" data-aos="fade-left">
