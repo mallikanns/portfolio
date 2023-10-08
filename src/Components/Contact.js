@@ -68,7 +68,7 @@ const Contact = () => {
         <div className="w-[350px] lg:w-auto">
           <h3 className="pt-2 pb-4 lg:pt-5 text-center text-lavender underline underline-offset-4 font-semibold">Email me</h3>
 
-          <form className="flex flex-col gap-4 lg:w-[550px]" data-aos="fade-left">
+          <form action="https://getform.io/f/c5e4950e-b5d2-4546-b708-58d07d2ff377" method="POST" className="flex flex-col gap-4 lg:w-[550px]" data-aos="fade-left">
             <div className="flex flex-col py-3 lg:px-5 border-2 border-[#ffffff75] rounded-xl px-4">
               <label className="text-base pb-2">Name: </label>
               <input
@@ -92,6 +92,7 @@ const Contact = () => {
             <div className="flex flex-col py-3 lg:px-5 border-2 border-[#ffffff75] rounded-xl px-4">
               <label className="text-base pb-2">Message: </label>
               <textarea
+                type="text"
                 name="message"
                 cols="30"
                 rows="10"
@@ -99,7 +100,7 @@ const Contact = () => {
                 placeholder="Enter your message"
               ></textarea>
             </div>
-            <button className="btn py-2 text-black hover:text-white flex items-center justify-center gap-3">
+            <button type="submit" className="btn py-2 text-black hover:text-white flex items-center justify-center gap-3">
               Send Message
               <BiRocket />
             </button>
