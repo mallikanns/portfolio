@@ -7,6 +7,16 @@ import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import { motion, useScroll } from "framer-motion";
 
+import { rainbowCursor } from "cursor-effects";
+new rainbowCursor({
+  length: 20,
+  colors: ["#FF0084", "#FF68D1","#F2A4FF", "#E1D8FF"],
+  // colors: ["#00DED1", "#00B5CE","#008ABC", "#005F9B", "#2D366E"],
+  // colors: ["#00E6E1", "#FFFADE","#D565D4"],
+  size: 9,
+  zIndex: 1000,
+});
+
 function App() {
   const { scrollYProgress } = useScroll();
   return (
