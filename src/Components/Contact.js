@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
               <span className="text-base">(+66) 86 352 8400</span>
               <div className="flex items-center gap-2 hover:text-lightgreen">
-                <a href="" className="text-base">
+                <a href="tel:+66863528400" className="text-base">
                   Call me
                 </a>
                 <BiRightArrowAlt className="text-2xl" />

@@ -16,7 +16,7 @@ const Qualification = () => {
       <span className="text-lg text-rajah text-center px-5 py-3 max-w-[600px]">
         My personal journey
       </span>
-      <div className="max-w-3xl container text-lavender" data-aos="fade-down">
+      <div className="max-w-3xl container text-lavender">
         <div className="flex justify-center gap-2 mb-5">
           <div
             className={`flex items-center gap-2 mr-4 mb-1 font-semibold cursor-pointer ${
@@ -39,7 +39,7 @@ const Qualification = () => {
         </div>
         <div className="justify-center text-xs lg:text-lg">
           {activeTab === "experience" && (
-            <div>
+            <div data-aos="fade-up-right">
               {/* SD */}
               <div className="mb-2 grid grid-cols-[1fr,max-content,1fr] gap-x-3">
                 <div className="pl-10 lg:pl-[90px]">
@@ -100,7 +100,7 @@ const Qualification = () => {
 
           {/* Display experience content when activeTab is "experience" */}
           {activeTab === "education" && (
-            <div>
+            <div data-aos="fade-up-left">
               {/* tu */}
               <div className="mb-2 grid grid-cols-[1fr,max-content,1fr] gap-x-3">
                 <div className="pl-10 lg:pl-[90px]">

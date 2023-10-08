@@ -109,6 +109,18 @@ export const projects = [
   },
   {
     id: 1,
+    title: "Portfolio",
+    date: "Oct 2023",
+    description:
+      "Created my static portfolio website utilizing React and Tailwind CSS, featuring a responsive design that portrays my skills and accomplishments.",
+    image:
+      "https://i.postimg.cc/wTS1tdnH/Screenshot-2023-10-08-232220.png",
+    tags: ["React Js", "JavaScript", "Tailwind"],
+    github: "https://github.com/mallikanns/portfolio",
+    webapp: "https://portfolio-mallika.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Admin & User panel",
     date: "Sep 2023",
     description:
@@ -122,7 +134,7 @@ export const projects = [
     webapp: "https://react-assessment-five.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Find Your Hat",
     date: "Aug 2023",
     description:
@@ -134,7 +146,7 @@ export const projects = [
     webapp: "https://github.com/mallikanns/find-your-hat",
   },
   {
-    id: 3,
+    id: 4,
     title: "Colmar Academy",
     date: "Aug 2023",
     description:
