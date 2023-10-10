@@ -100,7 +100,7 @@ export const projects = [
     title: "FitUp",
     date: "Aug 2023 - Oct 2023",
     description:
-      "FitUp is a full-stack exercise tracking web app (CRUD project) that motivates users with monetary rewards and offers comprehensive data visualization tools.",
+      "FitUp is a full-stack exercise-tracking web application (CRUD) that motivates users with monetary rewards and offers comprehensive data visualization tools.",
     image:
       "https://i.postimg.cc/cC08ZPDY/project-fitup.png",
     tags: ["MongoDB", "Node Js", "Express Js", "React Js", "Tailwind"],
