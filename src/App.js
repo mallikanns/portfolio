@@ -9,11 +9,11 @@ import { motion, useScroll } from "framer-motion";
 
 import { rainbowCursor } from "cursor-effects";
 new rainbowCursor({
-  length: 20,
+  length: 10,
   colors: ["#FF0084", "#FF68D1","#F2A4FF", "#E1D8FF"],
   // colors: ["#00DED1", "#00B5CE","#008ABC", "#005F9B", "#2D366E"],
   // colors: ["#00E6E1", "#FFFADE","#D565D4"],
-  size: 9,
+  size: 5,
   zIndex: 1000,
 });
 
