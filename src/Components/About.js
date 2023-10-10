@@ -19,7 +19,9 @@ const About = () => {
               <TypeAnimation
                 sequence={[
                   'SOFTWARE DEVELOPER', 
-                  2000, 
+                  1000, 
+                  'FULL-STACK DEVELOPER', 
+                  1000, 
                 ]}
                 speed={50}
                 className="text-lightgreen"
@@ -34,7 +36,7 @@ const About = () => {
               <div className="flex flex-col max-w-max gap-y-5 gap-x-6 items-center mb-12 mx-auto lg:mx-0">
                 <div className="flex gap-3">
                   <Link to="contact" smooth={true}><butoon className="btn btn-lg flex items-center text-lg animate-bounce">Contact me</butoon></Link>
-                  <a href="https://drive.google.com/file/d/1DRJr9mn_fhgUWuHsoSpTQ7QH0KpwCrj3/view?usp=drive_link" target="new" className="text-gradient btn-link text-lg hover:text-lightgreen">Download CV</a>
+                  <a href="https://drive.google.com/file/d/1uMSUQMHNp8kSrpNwgI3ePGH2gTNr8BOJ/view?usp=drive_link" target="new" className="text-gradient btn-link text-lg hover:text-lightgreen">Download CV</a>
                 </div>
                 <div className="flex gap-2">
                   <a href="https://www.linkedin.com/in/mallika-nns/" target="new"><BiLogoLinkedinSquare className="w-[30px] h-[30px] hover:text-white"/></a>

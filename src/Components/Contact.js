@@ -22,7 +22,7 @@ const Contact = () => {
                 <BiEnvelope className="text-2xl" />
                 <h3 className="text-base">Email</h3>
               </div>
-              <span className="text-base">mallika.nilns@gamil.com</span>
+              <span className="text-base">mallika.nilns@gmail.com</span>
               <div className="flex items-center gap-2 hover:text-lightgreen">
                 <a href="mailto:mallika.nilns@gmail.com" target="new" className="text-base">
                   Write me
@@ -55,7 +55,7 @@ const Contact = () => {
                 <h3 className="text-base">Phone</h3>
               </div>
               <span className="text-base">(+66) 86 352 8400</span>
-              <div className="flex items-center gap-2 hover:text-lightgreen">
+              <div className="flex items-center gap-2 hover:text-lightgreen lg:hidden">
                 <a href="tel:+66863528400" className="text-base">
                   Call me
                 </a>
