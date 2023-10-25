@@ -107,7 +107,7 @@ export const projects = [
     description:
       "FitUp is a full-stack exercise-tracking web application (CRUD) that motivates users with monetary rewards and offers comprehensive data visualization tools.",
     image:
-      "https://i.postimg.cc/cC08ZPDY/project-fitup.png",
+      "https://res.cloudinary.com/depnyvk3i/image/upload/v1698216133/img/qgrwg2a1jfeljwrn5zed.png",
     tags: ["MongoDB", "Node Js", "Express Js", "React Js", "Tailwind"],
     // github: "#",
     // webapp: "#",
