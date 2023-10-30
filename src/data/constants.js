@@ -102,15 +102,15 @@ export const skills = [
 export const projects = [
   {
     id: 0,
-    title: "FitUp (In progress)",
+    title: "Fit-Up",
     date: "Aug 2023 - Oct 2023",
     description:
       "FitUp is a full-stack exercise-tracking web application (CRUD) that motivates users with monetary rewards and offers comprehensive data visualization tools.",
     image:
       "https://res.cloudinary.com/depnyvk3i/image/upload/v1698216133/img/qgrwg2a1jfeljwrn5zed.png",
     tags: ["MongoDB", "Node Js", "Express Js", "React Js", "Tailwind"],
-    // github: "#",
-    // webapp: "#",
+    github: "https://github.com/kongtuk2539/fit-up-project",
+    webapp: "https://fit-up-project.vercel.app/",
   },
   {
     id: 1,
